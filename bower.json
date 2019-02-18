@@ -1,0 +1,26 @@
+{
+    "name": "FE-Dev",
+    "description": "",
+    "main": "index.js",
+    "authors": [
+        "DinhLong <dinhlong241@gmail.com>"
+    ],
+    "license": "ISC",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "^4.2.1",
+        "jquery": "^3.3.1",
+        "swiper": "^4.4.6",
+        "font-awesome": "^5.6.3",
+        "mdi": "^3.2.89",
+        "linearicons": "^1.0.1",
+        "k-sass-core": "^6.0.4"
+    }
+}

@@ -1,0 +1,64 @@
+@import "../bower_components/k-sass-core/dist/sass/k-sass-core-only.sass"
+@import "../bower_components/bootstrap/scss/functions"
+@import "../bower_components/bootstrap/scss/variables"
+@import "../bower_components/bootstrap/scss/mixins"
+
+// // Set Link Hover
+=link ($link, $hover:$link, $active:$link, $visit:$link)
+	color: #{$link}
+	&:visited
+		color: #{$visit}
+	&:hover
+		color: #{$hover}
+	&:active, &:focus , &.active, &.activated
+		color: #{$active}
+
+// Set bg hover
+=bg ($link, $hover:$link, $active:$link)
+	@if $link != "none"
+		background-color: #{$link}
+		&:hover
+			background-color: #{$hover}
+		&:active, &:focus , &.active, &.activated
+			background-color: #{$active}
+	@else
+		background: none
+		&:hover
+			background-color: #{$hover}
+		&:active, &:focus , &.active, &.activated
+			background-color: #{$active}
+
+=mdi($content)
+	content: $content
+	font-size: inherit
+	font-style: normal
+	font-weight: normal
+	font-variant: normal
+	line-height: inherit
+	text-rendering: auto
+	display: inline-block
+	-webkit-font-smoothing: antialiased
+	font-family: "Material Design Icons"
+	
+=lnr($content)
+	content: $content
+	speak: none
+	line-height: 1
+	font-style: normal
+	font-weight: normal
+	font-variant: normal
+	text-transform: none
+	-webkit-font-smoothing: antialiased
+	font-family: 'Linearicons-Free'
+
+=flex-center()
+	display: flex
+	align-items: center
+	justify-content: center
+
+@function r($size)
+	@return ($size/16px)*1rem
+
+
+=tran($time)
+	transition: all $time ease-in-out

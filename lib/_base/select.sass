@@ -1,0 +1,21 @@
+.select
+	border: 1px solid #ebbd89
+	+bor-rad(5px)
+	position: relative
+	&:after
+		+lnr('\e874')
+		+fz(r(12px))
+		color: #ebbd89
+		+pos(abs, 50% 1.5rem null null)
+		transform: translateY(-50%)
+	select
+		width: 100%
+		+pad(.35rem 1.5rem)
+		background: none
+		border: none
+		-webkit-appearance: none
+		-moz-appearance: none
+		color: #006478
+		+fz(r(14px))
+	+media-breakpoint-up(sm)
+		width: 140px

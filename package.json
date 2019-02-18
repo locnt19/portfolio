@@ -1,0 +1,37 @@
+{
+    "name": "FE-Dev",
+    "version": "2.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "gulp",
+        "pro": "gulp prod --production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "DinhLong <dinhlong241@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.2.3",
+        "@babel/register": "^7.0.0",
+        "autoprefixer": "^9.4.5",
+        "browser-sync": "^2.26.3",
+        "fibers": "^3.1.1",
+        "graceful-fs": "^4.1.15",
+        "gulp": "^4.0.0",
+        "gulp-clean": "^0.4.0",
+        "gulp-clean-css": "^4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-debug": "^4.0.0",
+        "gulp-if": "^2.0.2",
+        "gulp-plumber": "^1.2.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-pug": "^4.0.1",
+        "gulp-rename": "^1.4.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-uglify-es": "^1.0.4",
+        "yargs": "^12.0.5"
+    }
+}

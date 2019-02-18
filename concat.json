@@ -1,0 +1,18 @@
+{
+    "scripts": [
+        "./bower_components/jquery/dist/jquery.js",
+        "./bower_components/swiper/dist/js/swiper.js",
+        "./scripts/_base64.js",
+        "./scripts/_mapping.js",
+        "./scripts/_mapping-listener.js"
+    ],
+    "styles": [
+        "bower_components/bootstrap/dist/css/bootstrap-grid.css",
+        "bower_components/bootstrap/dist/css/bootstrap-reboot.css",
+        "bower_components/font-awesome/css/all.min.css",
+        "bower_components/swiper/dist/css/swiper.css",
+        "bower_components/mdi/css/materialdesignicons.min.css",
+        "bower_components/linearicons/dist/web-font/style.css",
+        "bower_components/bootstrap/dist/css/bootstrap-grid.css"
+    ]
+}
